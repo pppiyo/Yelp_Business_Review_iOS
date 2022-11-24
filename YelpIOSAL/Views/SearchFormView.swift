@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SearchFormView: View {
     @State private var keyword: String = ""
-    @State private var distance: String = ""
+    @State private var distance: Int = 10
     @State private var category: String = "Default"
     @State private var location: String = ""
     @State private var autoDetect: Bool = false
@@ -26,7 +26,7 @@ struct SearchFormView: View {
                 
                 HStack {
                     Text("Distance: ")
-                    TextField("", text: $distance).foregroundColor(.black)
+                    TextField("", value: $distance, formatter: NumberFormatter()).foregroundColor(.black)
                 }
                 
                 HStack {
@@ -75,21 +75,14 @@ struct SearchFormView: View {
                     }
                 }
                      
-                
-                HStack {
-                    Text("Location: ")
-                    TextField("Required", text: $location).foregroundColor(.black)
-                }
-                
-                Toggle("Auto-detect my location", isOn: $autoDetect.animation())
-                
                 if !autoDetect {
-//                    Toggle("Enable logging", isOn: $showingLocation)
                     HStack {
                         Text("Location: ")
                         TextField("Required", text: $location).foregroundColor(.black)
                     }
                 }
+                
+                Toggle("Auto-detect my location", isOn: $autoDetect.animation())
                 
                 HStack {
                     Spacer()
