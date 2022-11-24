@@ -10,11 +10,11 @@ import SwiftUI
 struct BusinessListView: View {
     var body: some View {
         NavigationView {
-            List(businesses) { landmark in
+            List(businesses) { business in
                 NavigationLink {
-                    BusinessDetailView(business: landmark)
+                    BusinessDetailView(business: business)
                 } label: {
-                    BusinessRowView(business: landmark)
+                    BusinessRowView(business: business)
                 }
             }
             .navigationBarTitle("Results", displayMode: .automatic)

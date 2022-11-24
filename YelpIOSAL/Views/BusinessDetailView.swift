@@ -12,22 +12,22 @@ struct BusinessDetailView: View {
     
     var body: some View {
         ScrollView {
-            MapView(coordinate: business.locationCoordinate)
-                .ignoresSafeArea(edges: .top)
-                .frame(height: 300)
 
-            CircleImageView(image: business.image)
-                .offset(y: -130)
-                .padding(.bottom, -130)
+
+//            CircleImageView(image: business.imgURL)
+//                .offset(y: -130)
+//                .padding(.bottom, -130)
 
             VStack(alignment: .leading) {
                 Text(business.name)
                     .font(.title)
 
                 HStack {
-                    Text(business.park)
-                    Spacer()
-                    Text(business.state)
+                    Text("\(business.order)")
+                    Text("\(business.name)")
+                    Text("\(business.rating)")
+//                    Spacer()
+                    Text("\(business.distance)")
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
@@ -36,7 +36,7 @@ struct BusinessDetailView: View {
 
                 Text("About \(business.name)")
                     .font(.title2)
-                Text(business.description)
+                Text("\(business.rating)")
             }
             .padding()
         }

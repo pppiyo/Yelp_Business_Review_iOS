@@ -12,11 +12,17 @@ struct BusinessRowView: View {
 
     var body: some View {
         HStack {
-            business.image
-                .resizable()
-                .frame(width: 50, height: 50)
+            Spacer()
+            Text("\(business.order)")
+            Spacer()
+//            business.image
+//                .resizable()
+//                .frame(width: 50, height: 50)
             Text(business.name)
-
+            Spacer()
+            Text("\(business.rating)")
+            Spacer()
+            Text("\(business.distance)")
             Spacer()
         }
     }
