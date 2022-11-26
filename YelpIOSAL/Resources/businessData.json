@@ -5,7 +5,7 @@
         "imgURL" : "https://s3-media3.fl.yelpcdn.com/bphoto/vKcrGKqI32E49OIb2D3RtQ/o.jpg",
         "name" : "The Donut Man",
         "order" : 1,
-        "rating" : 4,
+        "rating" : "4",
     },
     
     {
@@ -14,7 +14,7 @@
         "imgURL" : "https://s3-media3.fl.yelpcdn.com/bphoto/vKcrGKqI32E49OIb2D3RtQ/o.jpg",
         "name" : "The Donut Man",
         "order" : 1,
-        "rating" : 4,
+        "rating" : "4",
     },
     
     {
@@ -23,7 +23,7 @@
         "imgURL" : "https://s3-media3.fl.yelpcdn.com/bphoto/vKcrGKqI32E49OIb2D3RtQ/o.jpg",
         "name" : "The Donut Man",
         "order" : 1,
-        "rating" : 4,
+        "rating" : "4",
     },
     
     {
@@ -32,6 +32,6 @@
         "imgURL" : "https://s3-media3.fl.yelpcdn.com/bphoto/vKcrGKqI32E49OIb2D3RtQ/o.jpg",
         "name" : "The Donut Man",
         "order" : 1,
-        "rating" : 4,
+        "rating" : "4",
     },
 ]

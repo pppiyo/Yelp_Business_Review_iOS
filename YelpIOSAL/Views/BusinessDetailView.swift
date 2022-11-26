@@ -36,7 +36,7 @@ struct BusinessDetailView: View {
 
                 Text("About \(business.name)")
                     .font(.title2)
-                Text("\(business.rating)")
+                Text(business.rating)
             }
             .padding()
         }

@@ -14,19 +14,20 @@
 		2C1E6960292ED08E00195775 /* SearchFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E695F292ED08E00195775 /* SearchFormView.swift */; };
 		2C1E6962292ED1C200195775 /* BusinessListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E6961292ED1C200195775 /* BusinessListView.swift */; };
 		2C1E6964292ED22400195775 /* BusinessDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E6963292ED22400195775 /* BusinessDetailView.swift */; };
-		2C1E6966292ED38A00195775 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E6965292ED38A00195775 /* MapView.swift */; };
-		2C1E6968292ED44000195775 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E6967292ED44000195775 /* CircleImageView.swift */; };
 		2C1E696A292ED48900195775 /* BusinessRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E6969292ED48900195775 /* BusinessRowView.swift */; };
 		2C1E696C292ED59E00195775 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E696B292ED59E00195775 /* Business.swift */; };
 		2C1E696E292ED63800195775 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E696D292ED63800195775 /* ModelData.swift */; };
 		2C1E6973292ED6FD00195775 /* sampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C1E6972292ED6FD00195775 /* sampleData.json */; };
+		2C38942F2931C6BD00158BC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C38942E2931C6BD00158BC1 /* ViewController.swift */; };
 		2CDC07CB292F236F00FA7191 /* MapLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC07CA292F236F00FA7191 /* MapLocationView.swift */; };
 		2CDC07CD292F238100FA7191 /* ReviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC07CC292F238100FA7191 /* ReviewsView.swift */; };
 		2CDC07CF292F24E100FA7191 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC07CE292F24E100FA7191 /* MainTabView.swift */; };
 		2CDC07D1292F26CA00FA7191 /* BusinessDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC07D0292F26CA00FA7191 /* BusinessDetailViewController.swift */; };
 		2CDC07D4292F27C500FA7191 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC07D3292F27C500FA7191 /* ImageService.swift */; };
-		2CDC07D6292F2F0200FA7191 /* BusinessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC07D5292F2F0200FA7191 /* BusinessTableViewCell.swift */; };
+		2CDC07D6292F2F0200FA7191 /* BusinessListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC07D5292F2F0200FA7191 /* BusinessListViewCell.swift */; };
 		2CDC07D9292F2F6500FA7191 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDC07D8292F2F6500FA7191 /* Cancellable.swift */; };
+		2CE098B6292F490E005372A0 /* SearchFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE098B5292F490E005372A0 /* SearchFormViewController.swift */; };
+		2CE098B8292F4D98005372A0 /* BusinessDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE098B7292F4D98005372A0 /* BusinessDetails.swift */; };
 		2CE2EDD9292F00E200177305 /* businessData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CE2EDD8292F00E200177305 /* businessData.json */; };
 /* End PBXBuildFile section */
 
@@ -39,19 +40,20 @@
 		2C1E695F292ED08E00195775 /* SearchFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFormView.swift; sourceTree = "<group>"; };
 		2C1E6961292ED1C200195775 /* BusinessListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessListView.swift; sourceTree = "<group>"; };
 		2C1E6963292ED22400195775 /* BusinessDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailView.swift; sourceTree = "<group>"; };
-		2C1E6965292ED38A00195775 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		2C1E6967292ED44000195775 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 		2C1E6969292ED48900195775 /* BusinessRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRowView.swift; sourceTree = "<group>"; };
 		2C1E696B292ED59E00195775 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		2C1E696D292ED63800195775 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		2C1E6972292ED6FD00195775 /* sampleData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampleData.json; sourceTree = "<group>"; };
+		2C38942E2931C6BD00158BC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CDC07CA292F236F00FA7191 /* MapLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLocationView.swift; sourceTree = "<group>"; };
 		2CDC07CC292F238100FA7191 /* ReviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsView.swift; sourceTree = "<group>"; };
 		2CDC07CE292F24E100FA7191 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		2CDC07D0292F26CA00FA7191 /* BusinessDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailViewController.swift; sourceTree = "<group>"; };
 		2CDC07D3292F27C500FA7191 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
-		2CDC07D5292F2F0200FA7191 /* BusinessTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTableViewCell.swift; sourceTree = "<group>"; };
+		2CDC07D5292F2F0200FA7191 /* BusinessListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessListViewCell.swift; sourceTree = "<group>"; };
 		2CDC07D8292F2F6500FA7191 /* Cancellable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
+		2CE098B5292F490E005372A0 /* SearchFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFormViewController.swift; sourceTree = "<group>"; };
+		2CE098B7292F4D98005372A0 /* BusinessDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetails.swift; sourceTree = "<group>"; };
 		2CE2EDD8292F00E200177305 /* businessData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = businessData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,8 +116,6 @@
 				2C1E6961292ED1C200195775 /* BusinessListView.swift */,
 				2C1E6963292ED22400195775 /* BusinessDetailView.swift */,
 				2CDC07CA292F236F00FA7191 /* MapLocationView.swift */,
-				2C1E6965292ED38A00195775 /* MapView.swift */,
-				2C1E6967292ED44000195775 /* CircleImageView.swift */,
 				2C1E6969292ED48900195775 /* BusinessRowView.swift */,
 				2CDC07CC292F238100FA7191 /* ReviewsView.swift */,
 				2CDC07CE292F24E100FA7191 /* MainTabView.swift */,
@@ -126,8 +126,10 @@
 		2C1E695D292EADFE00195775 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2CDC07D5292F2F0200FA7191 /* BusinessTableViewCell.swift */,
+				2CDC07D5292F2F0200FA7191 /* BusinessListViewCell.swift */,
 				2CDC07D0292F26CA00FA7191 /* BusinessDetailViewController.swift */,
+				2CE098B5292F490E005372A0 /* SearchFormViewController.swift */,
+				2C38942E2931C6BD00158BC1 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -137,6 +139,7 @@
 			children = (
 				2C1E696B292ED59E00195775 /* Business.swift */,
 				2C1E696D292ED63800195775 /* ModelData.swift */,
+				2CE098B7292F4D98005372A0 /* BusinessDetails.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -240,16 +243,17 @@
 			files = (
 				2CDC07CD292F238100FA7191 /* ReviewsView.swift in Sources */,
 				2C1E6951292EADD000195775 /* ContentView.swift in Sources */,
-				2C1E6966292ED38A00195775 /* MapView.swift in Sources */,
-				2C1E6968292ED44000195775 /* CircleImageView.swift in Sources */,
+				2CE098B6292F490E005372A0 /* SearchFormViewController.swift in Sources */,
 				2CDC07CB292F236F00FA7191 /* MapLocationView.swift in Sources */,
-				2CDC07D6292F2F0200FA7191 /* BusinessTableViewCell.swift in Sources */,
+				2CDC07D6292F2F0200FA7191 /* BusinessListViewCell.swift in Sources */,
 				2CDC07D9292F2F6500FA7191 /* Cancellable.swift in Sources */,
 				2CDC07D1292F26CA00FA7191 /* BusinessDetailViewController.swift in Sources */,
 				2C1E6962292ED1C200195775 /* BusinessListView.swift in Sources */,
 				2C1E6960292ED08E00195775 /* SearchFormView.swift in Sources */,
 				2CDC07D4292F27C500FA7191 /* ImageService.swift in Sources */,
+				2CE098B8292F4D98005372A0 /* BusinessDetails.swift in Sources */,
 				2CDC07CF292F24E100FA7191 /* MainTabView.swift in Sources */,
+				2C38942F2931C6BD00158BC1 /* ViewController.swift in Sources */,
 				2C1E6964292ED22400195775 /* BusinessDetailView.swift in Sources */,
 				2C1E696C292ED59E00195775 /* Business.swift in Sources */,
 				2C1E696E292ED63800195775 /* ModelData.swift in Sources */,
@@ -386,9 +390,10 @@
 				DEVELOPMENT_TEAM = AXCHADMUD5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YelpIOSAL/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YelpReviewApp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -415,9 +420,10 @@
 				DEVELOPMENT_TEAM = AXCHADMUD5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YelpIOSAL/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YelpReviewApp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

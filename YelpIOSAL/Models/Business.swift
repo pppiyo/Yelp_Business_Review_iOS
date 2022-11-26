@@ -18,7 +18,7 @@ struct Business: Hashable, Codable, Identifiable {
     var id: String
     var imgURL: URL
     var name: String
-    var rating: Double
+    var rating: String
     var distance: Int
 }
 

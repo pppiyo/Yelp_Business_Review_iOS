@@ -20,7 +20,7 @@ struct BusinessRowView: View {
 //                .frame(width: 50, height: 50)
             Text(business.name)
             Spacer()
-            Text("\(business.rating)")
+            Text(business.rating)
             Spacer()
             Text("\(business.distance)")
             Spacer()

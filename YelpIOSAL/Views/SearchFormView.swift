@@ -14,9 +14,10 @@ struct SearchFormView: View {
     @State private var location: String = ""
     @State private var autoDetect: Bool = false
     @State private var showingLocation = true
-
+    
     
     var body: some View {
+        // business search
         NavigationView {
             Form {
                 HStack {
@@ -74,7 +75,7 @@ struct SearchFormView: View {
                         ).foregroundColor(.blue)
                     }
                 }
-                     
+                
                 if !autoDetect {
                     HStack {
                         Text("Location: ")
@@ -92,17 +93,19 @@ struct SearchFormView: View {
                     ClearButton()
                     Spacer()
                 }
-
+                
             }
             .foregroundColor(.secondary)
             .navigationBarTitle("Business Search")
             .navigationBarItems(trailing: Button(action: {
-                            print("Fetching json data")
-                        }, label: {
-                            Text("Fetch courses")
-                        }))
+                print("Fetching json data")
+            }, label: {
+                Image(systemName: "calendar.badge.clock")
+            }))
+            
+            
+            
         }
-
     }
 }
 
@@ -121,6 +124,7 @@ struct SubmitButton: View {
         .buttonStyle(MyButtonStyle())
         .background(.red)
         .clipShape(RoundedRectangle(cornerRadius: 10))
+        
     }
 }
 
@@ -141,5 +145,5 @@ struct MyButtonStyle: ButtonStyle {
             .padding()
             .foregroundColor(.white)
             .frame(width: 120)
-            }
+    }
 }
